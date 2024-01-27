@@ -7,7 +7,7 @@ services:
       - mysql_data:/var/lib/mysql
     environment:
       MYSQL_DATABASE: inventory-db
-      MYSQL_USER: youssfi
+      MYSQL_USER: Mehdi
       MYSQL_PASSWORD: 1234
       MYSQL_ROOT_PASSWORD: admin
     ports:
@@ -27,7 +27,7 @@ services:
       PMA_ARBITRARY: 1
   enset-inventory-service:
     build: ./inventory-service
-    container_name: enset-inventory-service
+    container_name: emsi-inventory-service
     ports:
       - '8098:8098'
     expose:
