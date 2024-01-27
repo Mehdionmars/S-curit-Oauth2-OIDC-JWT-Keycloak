@@ -1,6 +1,6 @@
   enset-customer-service-thymeleaf:
     build: ./customer-front-thymeleaf-app
-    container_name: enset-customer-service-thymeleaf
+    container_name: emsi-customer-service-thymeleaf
     ports:
       - '8090:8090'
     expose:
